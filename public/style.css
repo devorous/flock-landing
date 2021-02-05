@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    background-color:#262931;
+}
+.head{
+    background-color:#373c48;
+}
+#title{
+    width:20%;
+    margin:auto;
+    background-color:#5E6472;
+    text-align:center;
+    text-shadow:2px 2px 5px #16181d;
+} 
+#titleText{
+    font-size:75px;
+    font-family:Rubik;
+    color:#373a43;
+    user-select: none;
+    
+}
+#main{
+    width:100%;
+    padding:5px;
+}
+.yellow{
+    color:#FF9305;
+}
+.join{
+    margin:auto;
+    width:50%;
+    padding:10px;
+}
+.join button{
+    display:block;
+    margin:auto;
+    background-color:#373c48;
+    font-size:40px;
+    font-family:Rubik;
+    border:1px solid#373c48;
+    border-radius:3px;
+    box-shadow:2px 2px 5px black;
+    
+}
+.center{
+    display:flex;
+    width:100%;
+}
+.framebutton{
+    width:75px;
+    height:75px;
+    margin:250px;
+    font-size:50px;
+    border:0px black solid;
+    border-radius:50%;
+    transform:scale(2);
+}
+.imageframe{
+    width:40%;
+    height:500px;
+    margin:auto;
+    border:10px solid #373a43;
+    border-radius:5px;
+    margin-top:10px;
+}
+.slideshow{
+    background-color:#DDD;
+    width:100%;
+    height:100%;
+}
+.text{
+    color:white;
+    font-size:30px;
+    font-family:Rubik;
+    text-align:center;
+    padding-bottom:5px;
+}
+.links{
+    height:50%;
+    width:75%;
+    margin:auto;
+}
+.row{
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    padding:10px;
+    justify-content:center;
+}
+
+.link{
+    margin-left:25px;
+    width:250px;
+    height:250px;
+    border:2px solid black;
+}
