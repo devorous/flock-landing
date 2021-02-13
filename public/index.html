@@ -4,50 +4,77 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" >
-    </head>
-
-    <body>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik&display=swap">
+        <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+     </head>
+     <body>
         <div class="head">
-            <div class="title">
-                <h1 class="titleText">Flock<span class="yellow">Mod</span></h1>
-                <p class="text">Online interactive drawing application</p>
-            </div>
+           <div class="title">
+              <h1 class="titleText">Flock<span class="yellow">Mod</span></h1>
+              <p class="text">Online collaborative drawing application</p>
+           </div>
         </div>
         <div id="main">
-            <div class="join">
-                <a class="yellow" href="https://flockmod.com/draw/">Join Now</a>
-            </div>
-            <div class="center">
-                <div>
-                    <button class="framebutton"> < </button>
-                </div>
-                <div class="imageframe">
-                    <div class="slideshow">
-                        <video width="960px" class = "videoInsert" autoplay = "autoplay" muted loop>
-                            <source src="https://i.imgur.com/KPPuvaM.mp4">
-                            Your browser does not support HTML5 Video Elements
-                        </video>
+           <div class="center">
+             <button class="framebutton" onclick="prevImage()"> < </button>
+              <div class="imageFrame">
+                    <video class = "videoInsert" height="540px" autoplay="auto" muted loop>
+                       Your browser does not support HTML5 Video Elements
+                    </video>
+              </div>
+              <button class="framebutton" onclick="nextImage()"> > </button>
+           </div>
+           <div class="join">
+              <a class="yellow joinbutton" href="https://flockmod.com/draw/">Join Now!</a>
+           </div>
+           <div class="links">
+              <div class="row">
+     
+                 <div class="link">
+                    <a class="alink" href="https://flockmod.com/apps/fmdesktop_setup.exe"></a>
+                    <div class="link_image">
                     </div>
-                </div>
-                <div>
-                    <button class="framebutton"> > </button>
-                </div>
-            </div>
-            <div class="links">
-                <div class="row">
-                    <div class="link"></div>
-                    <div class="link"></div>
-                    <div class="link"></div>
-                </div>
-                <div class="row">
-                    <div class="link"></div>
-                    <div class="link"></div>
-                    <div class="link"></div>
-                </div>
-            </div>
+                    <p class="text">Desktop Version</p>
+                    <p class="smtext">Downloadable version of Flockmod</p>
+                 </div>
+                 <div class="link">
+                    <a class="alink" href="http://ideas.flockmod.com/"></a>
+                    <div class="link_image">
+                    </div>
+                    <p class="text">Feedback</p>
+                    <p class="smtext">Submit any feedback</p>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="link">
+                    <a class="alink" href="https://flockmod.com/help/"></a>
+                    <div class="link_image">
+                    </div>
+                    <p class="text">Help</p>
+                    <p class="smtext">Flockmod help documentation</p>
+                 </div>
+                 <div class="link">
+                    <a class="alink" href="https://flockmod.com/gallery/"></a>
+                    <div class="link_image">
+                    </div>
+                    <p class="text">Gallery</p>
+                    <p class="smtext">Browse thousands of uploaded drawings</p>
+                 </div>
+                 <div class="link">
+                    <a class="alink" href="https://flockmod.com/news/"></a>
+                    <div class="link_image">
+                    </div>
+                    <p class="text">News</p>
+                    <p class="smtext">Updates and upcoming features</p>
+                 </div>
+              </div>
+           </div>
         </div>
-    </body>
+     </body>
 
 
 
